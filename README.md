@@ -1,13 +1,9 @@
 # MATHEUS-TRAFFIC-SYSTEM
-Traffic System for streets
-
 
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("**MATHEUS`S TRAFFIC SYSTEM**");
         System.out.print("Qual era a velocidade do carro? ");
         int velocidadeCarro = scanner.nextInt();
